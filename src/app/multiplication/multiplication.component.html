@@ -1,0 +1,23 @@
+<div class="call-to-action">
+  <div>
+    <h1 class="header">Phachara Multiplication Table</h1>
+    <label for="numberInput" class="enterNumber">Enter a number:</label>
+    <input
+      type="number"
+      id="numberInput"
+      [(ngModel)]="multiplier"
+    />
+    <button (click)="generateTable()">Submit</button>
+
+    <table *ngIf="multiplicationTable.length > 0">
+      <tr>
+        <th>Multiplication</th>
+        <th>Result</th>
+      </tr>
+      <tr *ngFor="let row of multiplicationTable">
+        <td>{{ row.multiplication }}</td>
+        <td>{{ row.product }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

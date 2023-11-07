@@ -1,0 +1,71 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.call-to-action {
+  background-color: #F3EEEA;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.enterNumber {
+  color: black;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #F2FFE9;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border-color: #B0A695;
+  background-color: #EBE3D5;
+  color: black;
+}
+
+button {
+  margin-left: 15px;
+  background-color: #776B5D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table th {
+  background-color: #776B5D;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+}
+
+table td {
+  color: #776B5D;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
